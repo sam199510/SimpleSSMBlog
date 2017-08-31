@@ -1903,3 +1903,704 @@ WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No
 WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/404.html] in DispatcherServlet with name 'SpringMVC'
 WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/404.html] in DispatcherServlet with name 'SpringMVC'
 WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/404.html] in DispatcherServlet with name 'SpringMVC'
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:44:52 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:44:52 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 807 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:44:53 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 281 ms
+WARN 1735962278@qtp-353296011-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+WARN 1735962278@qtp-353296011-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/404.html] in DispatcherServlet with name 'SpringMVC'
+WARN 1735962278@qtp-353296011-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:44:53 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:44:52 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:47:35 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:47:35 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1210 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:47:36 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 468 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:47:36 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:47:35 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:47:53 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:47:53 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 547 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:47:53 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 245 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:48:03 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:48:03 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 839 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:04 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 265 ms
+WARN 1735962278@qtp-353296011-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:04 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:48:03 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:48:29 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:48:29 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 556 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:30 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 273 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:30 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:48:29 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:48:39 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:48:39 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 524 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:40 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 223 ms
+WARN 1735962278@qtp-353296011-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:48:40 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:48:39 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:49:11 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:49:11 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 565 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:49:12 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 244 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:49:16 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:49:16 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 816 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:49:17 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 258 ms
+WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+WARN 956429999@qtp-1502616653-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:49:17 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:49:16 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:50:58 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:50:58 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 783 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:50:59 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 407 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:50:59 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 21:50:58 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:51:02 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:51:02 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 21:58:32 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 21:58:32 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 780 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 21:58:33 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 265 ms
+WARN 1403649277@qtp-858267892-0 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:05:31 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:05:31 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 792 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:05:32 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 277 ms
+WARN 448550408@qtp-353296011-2 org.springframework.web.servlet.PageNotFound -No mapping found for HTTP request with URI [/frontend/common/500.html] in DispatcherServlet with name 'SpringMVC'
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:05:32 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:05:31 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:07:09 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:07:09 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 707 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:07:10 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 219 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:08:00 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:08:00 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 840 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:01 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 279 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:01 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:08:00 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:08:40 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:08:40 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1031 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:41 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 301 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:41 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:08:40 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:08:46 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:08:46 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 551 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:47 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 225 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:47 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:08:46 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:08:52 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:08:52 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 704 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:53 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 265 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:08:53 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:08:52 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:09:00 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:09:00 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 730 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:01 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 244 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:01 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:09:00 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:09:12 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:09:12 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 662 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:13 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 225 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:13 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:09:12 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:09:18 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:09:18 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 679 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:19 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 263 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:19 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Thu Aug 31 22:09:18 CST 2017]; root of context hierarchy
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Aug 31 22:09:40 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+INFO Timer-1 org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Aug 31 22:09:40 CST 2017]; root of context hierarchy] and template loader path [src/main/webapp/frontend/]
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 516 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Aug 31 22:09:41 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/save/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/delete/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/update/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/search/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts.*] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findAllContacts/] onto handler 'SSMBlogController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 212 ms

@@ -13,6 +13,7 @@
     <!--源jdk配置-->
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.resources.version>2.5</maven.resources.version>
 
     <!--项目源码配置-->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,14 +22,20 @@
     <!-- spring版本号 -->
     <spring.version>4.3.9.RELEASE</spring.version>
     <!-- mybatis版本号 -->
-    <mybatis.version>3.2.6</mybatis.version>
+    <mybatis.version>3.4.5</mybatis.version>
 
     <!-- mysql驱动版本号 -->
-    <mysql-driver.version>5.1.42</mysql-driver.version>
+    <mysql-driver.version>5.1.43</mysql-driver.version>
+
+    <!--freemarker版本号-->
+    <freemarker.version>2.3.23</freemarker.version>
 
     <!-- log4j日志文件管理包版本 -->
     <slf4j.version>1.7.7</slf4j.version>
     <log4j.version>1.2.17</log4j.version>
+
+    <!--以下是druid版本-->
+    <druid.version>1.1.2</druid.version>
   </properties>
 
   <dependencies>
@@ -121,7 +128,7 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
-      <version>1.2.2</version>
+      <version>1.3.1</version>
     </dependency>
 
     <!-- 添加mysql驱动依赖 -->
@@ -141,7 +148,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
-      <version>1.1.2</version>
+      <version>${druid.version}</version>
     </dependency>
 
 
@@ -220,7 +227,7 @@
     <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
-      <version>2.3.23</version>
+      <version>${freemarker.version}</version>
     </dependency>
 
   </dependencies>
@@ -303,18 +310,22 @@
           </execution>
         </executions>
       </plugin>
+
+      <!--maven编译源管理插件配置-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
         </configuration>
       </plugin>
+
+      <!--maven资源管理插件配置-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>2.5</version>
+        <version>${maven.resources.version}</version>
         <executions>
           <execution>
             <id>copy-resources</id>
