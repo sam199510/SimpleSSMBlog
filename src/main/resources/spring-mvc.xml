@@ -30,6 +30,9 @@
                 <ref bean="mappingJacksonHttpMessageConverter"/>
             </list>
         </property>
+        <property name="webBindingInitializer">
+            <bean class="com.ssmblog.action.converter.DateConverter"/>
+        </property>
     </bean>
 
     <!-- 设置freeMarker的配置文件路径 -->
